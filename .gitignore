@@ -1,0 +1,59 @@
+# ------------------------------
+# Python & Jupyter Notebook
+# ------------------------------
+
+__pycache__/           # Python cache folder (auto-generated)
+*.pyc                  # Compiled Python files
+*.pyo                  # Optimized Python files
+*$py.class             # Older compiled Python class files
+.ipynb_checkpoints     # Jupyter Notebook auto-save files
+
+# ------------------------------
+# Virtual Environments
+# ------------------------------
+
+.env                   # Environment variable file (secrets)
+*.env                  # Other environment files
+.venv/                 # Virtual environment folder
+venv/
+env/
+
+# ------------------------------
+# Power BI
+# ------------------------------
+
+*.pbix~*               # Temp backup of Power BI files
+*.pbit                 # Power BI templates (optional to ignore)
+*.tmp                  # Temporary files
+
+# ------------------------------
+#  IDEs and Editors
+# ------------------------------
+
+.vscode/               # VS Code project settings
+.idea/                 # IntelliJ or PyCharm settings
+
+# ------------------------------
+# Operating System Files
+# ------------------------------
+
+.DS_Store              # macOS folder settings
+Thumbs.db              # Windows thumbnail cache
+desktop.ini            # Windows folder config
+
+# ------------------------------
+# Data & Logs (Optional)
+# ------------------------------
+
+*.log                  # Log files
+*.out                  # Output files
+
+# You can comment out these two lines if you want to include datasets
+*.csv                  # Dataset files (e.g., survey data)
+*.xlsx                 # Excel files
+
+# ------------------------------
+# Output Folder (Optional)
+# ------------------------------
+
+outputs/               # Folder where you store charts or exports
